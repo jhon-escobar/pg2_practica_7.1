@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/example_package_Pg2_tecba/__init__.py
+src/example_package_Pg2_tecba/primer_modulo.py
+src/example_package_pg2_tecba.egg-info/PKG-INFO
+src/example_package_pg2_tecba.egg-info/SOURCES.txt
+src/example_package_pg2_tecba.egg-info/dependency_links.txt
+src/example_package_pg2_tecba.egg-info/top_level.txt
+test/test.py

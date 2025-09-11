@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: example_package_pg2_tecba
+Version: 0.0.1
+Summary: Reemplaza aquí con una descripción corta de tu paquete
+Home-page: https://github.com/yefeza/example_package_pg2_tecba
+Author: TU NOMBRE
+Author-email: tucorreo@example.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Dynamic: license-file
+
+# Example Package
+
+A simple example package to demonstrate packaging and distribution with Python.
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
