@@ -3,31 +3,14 @@ class CalculadoraIMC:
     
     @staticmethod
     def calcular(peso_kg: float, altura_m: float) -> float:
-        """
-        Calcula el Índice de Masa Corporal (IMC)
         
-        Args:
-            peso_kg (float): Peso en kilogramos
-            altura_m (float): Altura en metros
-        
-        Returns:
-            float: Valor del IMC
-        """
         if altura_m <= 0:
             raise ValueError("La altura debe ser mayor a cero")
         return peso_kg / (altura_m ** 2)
     
     @staticmethod
     def clasificar(imc: float) -> str:
-        """
-        Clasifica el IMC en categorías según la OMS
-        
-        Args:
-            imc (float): Valor del IMC
-        
-        Returns:
-            str: Categoría del IMC
-        """
+       
         if imc < 18.5:
             return "Bajo peso"
         elif 18.5 <= imc < 25:
@@ -47,17 +30,7 @@ class CalculadoraGrasaCorporal:
     
     @staticmethod
     def calcular(imc: float, edad: int, sexo: str) -> float:
-        """
-        Calcula el porcentaje de grasa corporal (fórmula Deurenberg)
-        
-        Args:
-            imc (float): Valor del IMC
-            edad (int): Edad en años
-            sexo (str): 'M' para masculino, 'F' para femenino
-        
-        Returns:
-            float: Porcentaje de grasa corporal
-        """
+      
         if sexo.upper() == 'M':
             return (1.20 * imc) + (0.23 * edad) - 16.2
         elif sexo.upper() == 'F':
@@ -71,16 +44,7 @@ class CalculadoraMasaMuscular:
     
     @staticmethod
     def calcular(peso_kg: float, porcentaje_grasa: float) -> dict:
-        """
-        Calcula la masa muscular y otros componentes corporales
-        
-        Args:
-            peso_kg (float): Peso en kilogramos
-            porcentaje_grasa (float): Porcentaje de grasa corporal
-        
-        Returns:
-            dict: Componentes corporales en kg
-        """
+      
         grasa_kg = (porcentaje_grasa / 100) * peso_kg
         masa_magra_kg = peso_kg - grasa_kg
         
