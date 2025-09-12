@@ -1,0 +1,2 @@
+setuptools==62.3.2
+olefile>=0.47
