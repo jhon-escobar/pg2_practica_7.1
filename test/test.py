@@ -1,4 +1,4 @@
-from example_package_Pg2_tecba import CalculadoraIMC, CalculadoraGrasaCorporal, CalculadoraMasaMuscular
+from hight_bod_heavy import CalculadoraIMC, CalculadoraGrasaCorporal, CalculadoraMasaMuscular
 
 # Calcular IMC
 imc = CalculadoraIMC.calcular(70, 1.75)
