@@ -3,10 +3,10 @@ README.md
 pyproject.toml
 setup.cfg
 setup.py
-src/hight_bod-heavy/__init__.py
-src/hight_bod-heavy/primer_modulo.py
-src/hight_bod-heavy.egg-info/PKG-INFO
-src/hight_bod-heavy.egg-info/SOURCES.txt
-src/hight_bod-heavy-info/dependency_links.txt
-src/hight_bod-heavy-info/top_level.txt
+src/hight_bod_heavy/__init__.py
+src/hight_bod_heavy/hight_bod_heavy.py
+src/hight_bod_heavy.egg-info/PKG-INFO
+src/hight_bod_heavy.egg-info/SOURCES.txt
+src/hight_bod_heavy.egg-info/dependency_links.txt
+src/hight_bod_heavy.egg-info/top_level.txt
 test/test.py
