@@ -3,7 +3,7 @@
 esta libreria tiene las sigtes finciones: `alculadoraIMC`, `CalculadoraGrasaCorporal`, `CalculadoraMasaMuscular`.
 comenzamo armando la estructura de los archivos
 creanado los archivos del paquete
-pg2_practica_7/
+`pg2_practica_7/
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
@@ -11,7 +11,7 @@ pg2_practica_7/
 │ └── hinght_bod_heavy/
 │ ├── **init**.py
 │ └── hight_bod_haevy.py
-└── tests/
+└── tests/`
 
 ## Configurando metadatos de project.toml
 
