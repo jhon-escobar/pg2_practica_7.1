@@ -16,6 +16,8 @@ Dynamic: license-file
 
 # <strong>higth_bod_heavy</strong>
 
+set PYTHONPATH=C:\Users\LENOVO\Desktop\libreria\pg2_practica_7.1\src
+
 esta libreria tiene las sigtes finciones: `alculadoraIMC`, `CalculadoraGrasaCorporal`, `CalculadoraMasaMuscular`.
 comenzamo armando la estructura de los archivos
 creanado los archivos del paquete

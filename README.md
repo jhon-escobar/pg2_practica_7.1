@@ -1,7 +1,7 @@
 # <strong>higth_bod_heavy</strong>
 
 esta libreria tiene las sigtes finciones: `alculadoraIMC`, `CalculadoraGrasaCorporal`, `CalculadoraMasaMuscular`.
-comenzamo armando la estructura de los archivos
+Comenzamos armando la estructura de los archivos
 creanado los archivos del paquete
 pg2_practica_7/
 ├── LICENSE
@@ -135,3 +135,43 @@ e importa el paquete:
 >>> primer_modulo.add_one(2)
 3```
 ````
+
+## Instalacion
+
+esta es el link para poder instalarlo por medio de la pagina web:
+`https://pypi.org/project/hight-bod-heavy/`
+bash
+`pip install hight-bod-heavy`
+en caso nnde que no fubcione al momento de poder usar la libreria, puedes usar este este paht agregandolo a tu pca tu entornode desarrollador y tambien colocando la misma ruta.
+`set PYTHONPATH=C:\Users\LENOVO\Desktop\libreria\pg2_practica_7.1\src`
+
+## test
+
+este es una prueba de como usar el codigo.
+
+##### estos son las importaciones de la libreria.
+
+```python
+from hight_bod_heavy import CalculadoraIMC, CalculadoraGrasaCorporal, CalculadoraMasaMuscular
+```
+
+##### ejemplo del uso:
+
+Calcular IMC
+
+```python
+imc = CalculadoraIMC.calcular(70, 1.75)
+categoria = CalculadoraIMC.clasificar(imc)
+
+# Calcular porcentaje de grasa
+grasa = CalculadoraGrasaCorporal.calcular(imc, 30, 'M')
+
+# Calcular masa muscular
+composicion = CalculadoraMasaMuscular.calcular(70, grasa)
+
+print(f"IMC: {imc:.2f} ({categoria})")
+print(f"Grasa corporal: {grasa:.2f}%")
+print(f"Masa magra: {composicion['masa_magra_kg']:.2f}kg")
+```
+
+# Gracias.
