@@ -13,6 +13,23 @@ creanado los archivos del paquete
 │ └── hight_bod_haevy.py
 └── tests/`
 
+### tambuen tiene estas funciones agregadas
+
+CalculadoraIMC:
+obtener_estadisticas(): Estadísticas completas del historial
+filtrar_por_clasificacion(): Filtra por tipo de IMC
+peso_ideal_rango(): Calcula peso ideal para altura
+obtener_evolucion(): Historial ordenado por fecha
+CalculadoraGrasaCorporal:
+clasificar_grasa(): Clasificación detallada por sexo y edad
+obtener_tendencia_grasa(): Analiza evolución temporal
+recomendar_objetivo(): Sugiere objetivos realistas
+CalculadoraMasaMuscular:
+calcular_indice_muscular(): Índice de calidad muscular
+obtener_progreso_muscular(): Analiza ganancia/pérdida
+calcular_deficit_calorico(): Planificación nutricional
+recomendar_entrenamiento(): Recomendaciones de ejercicio
+
 ## Configurando metadatos de project.toml
 
 Abre pyproject.toml e ingresa el siguiente contenido.
